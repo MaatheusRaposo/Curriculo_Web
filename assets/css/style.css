@@ -1,5 +1,8 @@
 .foto-perfil {
-    border-radius: 50%;
     max-width: 200px;
     border: 1px solid #CEFFE4;
+}
+
+#coluna-esquerda {
+    background-color: #262626;
 }
