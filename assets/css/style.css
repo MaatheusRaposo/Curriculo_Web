@@ -6,3 +6,13 @@
 #coluna-esquerda {
     background-color: #262626;
 }
+
+@media screen and (min-width: 768px) {
+    .espacamento-classes {
+        margin-top: 100px !important;
+    }
+}
+
+.espacamento-classes {
+    text-align: justify;
+}
