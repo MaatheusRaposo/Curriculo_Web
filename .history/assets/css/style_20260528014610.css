@@ -8,7 +8,6 @@
 
 #coluna-esquerda {
     background-color: #262626;
-    text-align: center;
 }
 
 #coluna-direita {
@@ -17,17 +16,8 @@
     height: 100vh;
 }
 
-a {
-    text-decoration: none;
-    color: antiquewhite;
-    font-size: 25px;
-    transition: transform 0.5s ease;
-    display: inline-block;
-}
-
-a:hover {
-    color: aliceblue;
-    transform: scale(1.2);
+#links {
+    align-content: center;
 }
 
 @media screen and (min-width: 768px) {

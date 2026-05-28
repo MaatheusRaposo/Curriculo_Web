@@ -1,33 +1,17 @@
 .foto-perfil {
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
     border: 1px solid #CEFFE4;
-    border-radius: 50%;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 #coluna-esquerda {
     background-color: #262626;
-    text-align: center;
 }
 
 #coluna-direita {
     overflow-y: auto;
-    scroll-behavior: smooth;
     height: 100vh;
-}
-
-a {
-    text-decoration: none;
-    color: antiquewhite;
-    font-size: 25px;
-    transition: transform 0.5s ease;
-    display: inline-block;
-}
-
-a:hover {
-    color: aliceblue;
-    transform: scale(1.2);
 }
 
 @media screen and (min-width: 768px) {
